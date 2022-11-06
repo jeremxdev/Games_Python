@@ -25,7 +25,9 @@ while game:
     except ValueError:
         print("Tu dois rentrer un nombre entier pour le jeu !")
         continue
-
+    except TypeError:
+        print("Le type entré n'est pas prit en charge ! Tu dois rentrer un nombre entier pour le jeu !")
+        continue
     if askToTheMysteriousNumber < 0:
         print("Tu dois entrer un numéro compris entre 0 et 50 !")
         continue
