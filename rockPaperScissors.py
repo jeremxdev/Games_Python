@@ -15,7 +15,7 @@ def Game():
     game = True
     while game:
         computerChoice = choice(tools)
-        print(computerChoice)
+        
         userChoice = input("pierre ?, feuille ?, scissos ? : ")
 
         if computerChoice == "pierre" and userChoice == "feuille":
