@@ -1,2 +1,3 @@
-Je test le push sur mon pc Window !!
-J'aime bien github !
+git add -A
+git commit -m ""
+git push
