@@ -9,6 +9,7 @@ print("""
 
 import random
 
+# Create the mysterious number
 mysteriousNumber = random.randrange(0, 50)
 
 print(mysteriousNumber)
