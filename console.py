@@ -7,7 +7,7 @@ print("""
 --------------------------------
 """)
 
-commands = ["help", "quit", "hello", "operation"]
+commands = ["help", "quit", "hello", "operation", "prompt"]
 
 def help():
     print(commands)
@@ -20,6 +20,10 @@ def hello():
 
 def operation():
     operator = input("Choisir un opérateur (+ ou - ou * ou /) : ")
+
+def prompt():
+    prompt = input("Entrer du texte --> ")
+    print(prompt)
 
     try:
         if operator == "+":
@@ -67,3 +71,5 @@ while True:
         hello()
     elif commandPrompt == "operation":
         operation()
+    elif commandPrompt == "prompt":
+        prompt()
